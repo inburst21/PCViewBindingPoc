@@ -2,8 +2,8 @@ package com.pointcare.pcviewbindingpoc
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.FrameLayout
-import com.pointcare.ui.screens.TestScreen
+import com.pointcare.ui.screens.test.TestFragment
+import com.pointcare.ui.views.selectiondialog.SelectionDialogFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         if(savedInstanceState == null) {
-            supportFragmentManager.beginTransaction().add(R.id.container, TestScreen()).commit()
+            supportFragmentManager.beginTransaction().add(R.id.container, SelectionDialogFragment()).commit()
         }
     }
 }

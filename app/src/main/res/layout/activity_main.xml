@@ -4,23 +4,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/DialogToolbarBackground">
 
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="wrap_content" />
+
+    <fragment
+        android:id="@+id/selction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.pointcare.ui.views.selectiondialog.SelectionDialogFragment"/>
 
     <fragment
         android:id="@+id/test_fragment"
-        android:name="com.pointcare.ui.screens.TestScreen"
-        android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:name="com.pointcare.ui.screens.test.TestFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <fragment
         android:id="@+id/test_fragment_2"
-        android:name="com.pointcare.ui.screens.TestScreen"
-        android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:name="com.pointcare.ui.screens.test.TestFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

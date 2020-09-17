@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_toolbar_normal"
+    android:background="@color/DialogToolbarBackground"
+    android:gravity="end"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/button_negative"
+        style="@style/TextLabel"
+        android:layout_width="@dimen/width_button_normal"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/button_positive"
+        style="@style/TextLabel"
+        android:layout_width="@dimen/width_button_normal"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+</LinearLayout>

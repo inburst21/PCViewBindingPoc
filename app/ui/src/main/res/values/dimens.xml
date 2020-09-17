@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_toolbar_normal">57dp</dimen>
+    <dimen name="width_button_normal">70dp</dimen>
+
+    <dimen name="height_dialog_normal">475dp</dimen>
+    <dimen name="width_dialog_normal">300dp</dimen>
+
+    <dimen name="height_text_selection">55dp</dimen>
+
+    <dimen name="height_dialog_list_view">361dp</dimen>
+</resources>

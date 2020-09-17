@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextTitle">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/Text</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="TextListItem">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/Text</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TextLabel">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/Label</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="InputText">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/InputText</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:backgroundTint">@color/InputText</item>
+    </style>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Label">#5EAFF0</color>
+    <color name="Text">#DEFFFFFF</color>
+    <color name="InputText">#99FFFFFF</color>
+    <color name="BorderColor">#619FFF</color>
+    <color name="ListBackground">#444</color>
+    <color name="DialogToolbarBackground">#121212</color>
+</resources>
